@@ -70,8 +70,7 @@ if resposta == 's':
         if x % vs == 0:
             lista_de_divisores.append(vs)
         vs += 1
-
-lista_de_divisores.append(x)
-print(lista_de_divisores)
+    lista_de_divisores.append(x)
+    print(lista_de_divisores)
 if resposta == 'n':
     exit('fim')
